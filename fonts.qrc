@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="fonts">
+    <file>fonts/Quicksand-Medium.otf</file>
+    <file>fonts/Quicksand-Medium.ttf</file>
+    <file>fonts/Quicksand-Regular.ttf</file>
+    <file>fonts/Quicksand-SemiBold.ttf</file>
+  </qresource>
+</RCC>

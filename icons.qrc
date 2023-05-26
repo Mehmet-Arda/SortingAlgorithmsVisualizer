@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/play0.png</file>
+    <file>icons/create.png</file>
+    <file>icons/dustbin.png</file>
+    <file>icons/maximize.png</file>
+    <file>icons/minimize.png</file>
+    <file>icons/minus0.png</file>
+    <file>icons/refresh.png</file>
+    <file>icons/pause.png</file>
+    <file>icons/resume.png</file>
+    <file>icons/radio-checked.png</file>
+    <file>icons/radio-unchecked.png</file>
+    <file>icons/close.png</file>
+    <file>icons/minus.png</file>
+    <file>icons/graph.png</file>
+  </qresource>
+</RCC>
