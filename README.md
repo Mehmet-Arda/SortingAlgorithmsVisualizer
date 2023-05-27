@@ -38,11 +38,21 @@ Proje, temelinde Python programlama diliyle yazılmıştır. Masaüstü uygulama
 
 ## Uygulama Özellikleri/Kullanımı
 
-1. **Manuel/Rastgele Liste Girme**
+1. **Uygulama Arayüzü**
+
+![Uygulama Arayüzü](https://user-images.githubusercontent.com/56768017/241291872-260326b9-6b28-4f29-a05b-00f2b5bc9c76.png)
+
+
+2. **Manuel/Rastgele Liste Girme**
+
+
 
 Uygulamada ilk olarak manuel ya da rastgele şekilde bir liste girilmektedir.
 
-![Kullanıcı Adı Girme](https://user-images.githubusercontent.com/56768017/230287707-40ea0b73-a821-41f5-8242-aa5cbafc4e95.png)
+![Kullanıcı Adı Girme](https://user-images.githubusercontent.com/56768017/241291872-260326b9-6b28-4f29-a05b-00f2b5bc9c76.png)
+
+
+3. ****
 
 
 
