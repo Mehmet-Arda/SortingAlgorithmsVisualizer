@@ -139,12 +139,4 @@ Proje, temelinde Python programlama diliyle yazılmıştır. Masaüstü uygulama
 
 
 
-3. ****
-
-
-3. ****
-
-
-
-
 
