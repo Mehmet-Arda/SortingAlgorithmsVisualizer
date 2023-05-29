@@ -211,9 +211,9 @@ class Main(QMainWindow):
         self.ui.lineEdit_random_list_max.textChanged.connect(self.RandomListMinMaxLength)
         self.ui.lineEdit_random_list_length.textChanged.connect(self.RandomListMinMaxLength)
 
-        self.ui.lineEdit_random_list_min.setMaxLength(4)
-        self.ui.lineEdit_random_list_max.setMaxLength(4)
-        self.ui.lineEdit_random_list_length.setMaxLength(4)
+        #self.ui.lineEdit_random_list_min.setMaxLength(4)
+        #self.ui.lineEdit_random_list_max.setMaxLength(4)
+        #self.ui.lineEdit_random_list_length.setMaxLength(4)
 
         self.ui.btn_manuel_list_remove_item.clicked.connect(self.ManuelListRemoveItem)
 
@@ -231,9 +231,9 @@ class Main(QMainWindow):
         self.ui.radioButton_random_list.setChecked(False)
 
 
-        self.ui.lineEdit_random_list_min.setValidator(QIntValidator(-1000,1000,self))
-        self.ui.lineEdit_random_list_max.setValidator(QIntValidator(-1000,1000,self))
-        self.ui.lineEdit_random_list_length.setValidator(QIntValidator(0,100,self))
+        self.ui.lineEdit_random_list_min.setValidator(QIntValidator(-100000,100000,self))
+        self.ui.lineEdit_random_list_max.setValidator(QIntValidator(-100000,100000,self))
+        self.ui.lineEdit_random_list_length.setValidator(QIntValidator(0,1000,self))
 
         
 
@@ -241,7 +241,7 @@ class Main(QMainWindow):
 
         
 
-        self.ManuelListLineEdit.setValidator(QIntValidator(-1000,1000,self))
+        self.ManuelListLineEdit.setValidator(QIntValidator(-100000,100000,self))
 
         self.ManuelListLineEdit.installEventFilter(self)
 
@@ -607,7 +607,7 @@ class Main(QMainWindow):
         self.ManuelListNewLineEdit.setMinimumSize(50,50)
         self.ManuelListNewLineEdit.setMaximumSize(50,50)
         self.ManuelListNewLineEdit.setStyleSheet("border-color:white;")
-        self.ManuelListNewLineEdit.setValidator(QIntValidator(-1000,1000,self))
+        self.ManuelListNewLineEdit.setValidator(QIntValidator(-100000,100000,self))
 
         self.ManuelListNewLineEdit.setAlignment(QtCore.Qt.AlignCenter)
 

@@ -93,7 +93,7 @@ class Ui_MainWindow(object):
 "}\n"
 "\n"
 "QSlider::handle:horizontal {\n"
-"    background:#FFD369;\n"
+"    background:#FACC15;\n"
 "    border: 1px solid #1E293B;\n"
 "    width: 8px;\n"
 "    margin: -8px 0;\n"
@@ -415,7 +415,7 @@ class Ui_MainWindow(object):
         self.horizontalSlider_animation_speed.setMinimumSize(QtCore.QSize(280, 0))
         self.horizontalSlider_animation_speed.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.horizontalSlider_animation_speed.setMinimum(10)
-        self.horizontalSlider_animation_speed.setMaximum(160)
+        self.horizontalSlider_animation_speed.setMaximum(213)
         self.horizontalSlider_animation_speed.setSingleStep(10)
         self.horizontalSlider_animation_speed.setPageStep(10)
         self.horizontalSlider_animation_speed.setProperty("value", 60)
@@ -524,7 +524,7 @@ class Ui_MainWindow(object):
         self.lineEdit_manuel_list_0.setFocusPolicy(QtCore.Qt.StrongFocus)
         self.lineEdit_manuel_list_0.setStyleSheet("border-color:#A8A29E;")
         self.lineEdit_manuel_list_0.setText("")
-        self.lineEdit_manuel_list_0.setMaxLength(5)
+        self.lineEdit_manuel_list_0.setMaxLength(1000)
         self.lineEdit_manuel_list_0.setAlignment(QtCore.Qt.AlignCenter)
         self.lineEdit_manuel_list_0.setObjectName("lineEdit_manuel_list_0")
         self.horizontalLayout.addWidget(self.lineEdit_manuel_list_0)
@@ -701,7 +701,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(9)
         self.lbl_length.setFont(font)
-        self.lbl_length.setStyleSheet("margin-left:3px;")
+        self.lbl_length.setStyleSheet("")
         self.lbl_length.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_length.setObjectName("lbl_length")
         self.horizontalLayout_6.addWidget(self.lbl_length)
@@ -730,7 +730,7 @@ class Ui_MainWindow(object):
         self.lineEdit_random_list_min.setMinimumSize(QtCore.QSize(50, 50))
         self.lineEdit_random_list_min.setMaximumSize(QtCore.QSize(50, 50))
         self.lineEdit_random_list_min.setStyleSheet("border-color:#A8A29E;")
-        self.lineEdit_random_list_min.setMaxLength(5)
+        self.lineEdit_random_list_min.setMaxLength(1000)
         self.lineEdit_random_list_min.setAlignment(QtCore.Qt.AlignCenter)
         self.lineEdit_random_list_min.setObjectName("lineEdit_random_list_min")
         self.horizontalLayout_7.addWidget(self.lineEdit_random_list_min)
@@ -743,7 +743,7 @@ class Ui_MainWindow(object):
         self.lineEdit_random_list_max.setMinimumSize(QtCore.QSize(50, 50))
         self.lineEdit_random_list_max.setMaximumSize(QtCore.QSize(50, 50))
         self.lineEdit_random_list_max.setStyleSheet("border-color:#A8A29E;")
-        self.lineEdit_random_list_max.setMaxLength(5)
+        self.lineEdit_random_list_max.setMaxLength(1000)
         self.lineEdit_random_list_max.setAlignment(QtCore.Qt.AlignCenter)
         self.lineEdit_random_list_max.setObjectName("lineEdit_random_list_max")
         self.horizontalLayout_7.addWidget(self.lineEdit_random_list_max, 0, QtCore.Qt.AlignHCenter)
@@ -756,7 +756,7 @@ class Ui_MainWindow(object):
         self.lineEdit_random_list_length.setMinimumSize(QtCore.QSize(50, 50))
         self.lineEdit_random_list_length.setMaximumSize(QtCore.QSize(50, 50))
         self.lineEdit_random_list_length.setStyleSheet("border-color:#A8A29E;")
-        self.lineEdit_random_list_length.setMaxLength(5)
+        self.lineEdit_random_list_length.setMaxLength(1000)
         self.lineEdit_random_list_length.setAlignment(QtCore.Qt.AlignCenter)
         self.lineEdit_random_list_length.setObjectName("lineEdit_random_list_length")
         self.horizontalLayout_7.addWidget(self.lineEdit_random_list_length)

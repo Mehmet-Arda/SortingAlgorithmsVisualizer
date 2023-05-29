@@ -689,7 +689,7 @@ border-radius:3px;</string>
                 <number>10</number>
                </property>
                <property name="maximum">
-                <number>160</number>
+                <number>213</number>
                </property>
                <property name="singleStep">
                 <number>10</number>
@@ -991,7 +991,7 @@ border-radius:3px
                        <string/>
                       </property>
                       <property name="maxLength">
-                       <number>5</number>
+                       <number>1000</number>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -1545,7 +1545,7 @@ border-radius:3px;</string>
                       <string notr="true">border-color:#A8A29E;</string>
                      </property>
                      <property name="maxLength">
-                      <number>5</number>
+                      <number>1000</number>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignCenter</set>
@@ -1576,7 +1576,7 @@ border-radius:3px;</string>
                       <string notr="true">border-color:#A8A29E;</string>
                      </property>
                      <property name="maxLength">
-                      <number>5</number>
+                      <number>1000</number>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignCenter</set>
@@ -1607,7 +1607,7 @@ border-radius:3px;</string>
                       <string notr="true">border-color:#A8A29E;</string>
                      </property>
                      <property name="maxLength">
-                      <number>5</number>
+                      <number>1000</number>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignCenter</set>
