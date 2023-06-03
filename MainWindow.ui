@@ -358,7 +358,7 @@ QPushButton:hover{
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">border-image: url(:/icons/icons/graph.png);</string>
+          <string notr="true">border-image: url(:/icons/icons/sortalgviz_icon.png);</string>
          </property>
          <property name="text">
           <string/>

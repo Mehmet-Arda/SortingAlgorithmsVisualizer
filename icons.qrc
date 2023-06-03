@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="icons">
+    <file>icons/sortalgviz_icon.png</file>
     <file>icons/play0.png</file>
     <file>icons/create.png</file>
     <file>icons/dustbin.png</file>

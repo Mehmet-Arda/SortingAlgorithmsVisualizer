@@ -276,7 +276,7 @@ class Ui_MainWindow(object):
         self.label_application_icon.setSizePolicy(sizePolicy)
         self.label_application_icon.setMinimumSize(QtCore.QSize(50, 50))
         self.label_application_icon.setMaximumSize(QtCore.QSize(50, 50))
-        self.label_application_icon.setStyleSheet("border-image: url(:/icons/icons/graph.png);")
+        self.label_application_icon.setStyleSheet("border-image: url(:/icons/icons/sortalgviz_icon.png);")
         self.label_application_icon.setText("")
         self.label_application_icon.setAlignment(QtCore.Qt.AlignCenter)
         self.label_application_icon.setObjectName("label_application_icon")
