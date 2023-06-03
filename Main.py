@@ -1026,6 +1026,11 @@ class Main(QMainWindow):
         self.ui.btn_pause_resume.setText("Durdur")
         self.ui.btn_pause_resume.setIcon(QIcon(":/icons/icons/pause.png"))
         #self.ui.btn_start.setEnabled(True)
+
+
+        self.ui.lbl_best_case.setText("-")
+        self.ui.lbl_average_case.setText("-")
+        self.ui.lbl_worst_case.setText("-")
         
 
 
