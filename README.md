@@ -25,6 +25,8 @@ Proje, temelinde Python programlama diliyle yazılmıştır. Masaüstü uygulama
 
 - [Numpy](https://numpy.org/)
 
+- [PyInstaller](https://pypi.org/project/pyinstaller/)
+
 - [Google Fonts](https://fonts.google.com/)
 
 
@@ -33,6 +35,10 @@ Proje, temelinde Python programlama diliyle yazılmıştır. Masaüstü uygulama
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 
+## İndirme
+
+Proje, "pyinstaller" modülü ile tek bir .exe uzantılı uygulama haline getirilmiştir. Bu uygulama, kaynak dosyalar içerisinden "/dist" klasörü altında bulunmaktadır.
+Başka herhangi bir dosyaya gerek kalmaksızın sadece bu uygulama ile proje çalıştırılabilmektedir.
 
 
 
